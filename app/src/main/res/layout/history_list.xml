@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bt_historylistCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:layout_marginLeft="15dp"
+            android:textColor="#FF0000"
+            android:visibility="invisible"
+            android:layout_toLeftOf="@+id/bt_historyListUpload"
+            android:background="@drawable/button2"></Button>
+        <Button
+            android:id="@+id/bt_historyListUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上传"
+            android:textColor="#FF0000"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/button2"
+            android:visibility="invisible"
+            android:layout_alignParentRight="true"></Button>
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/lv_historyList"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

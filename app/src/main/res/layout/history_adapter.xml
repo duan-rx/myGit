@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_margin="12dp"
+        android:textSize="14dp"
+        android:maxLength="14"
+        android:id="@+id/tv_histroy"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:id="@+id/tv_histroy2"
+        android:textSize="16dp"
+        android:layout_margin="8dp"
+        android:paddingLeft="2dp"
+        android:layout_toRightOf="@+id/tv_histroy"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:textSize="16dp"
+        android:layout_margin="12dp"
+        android:id="@+id/tv_histroy3"
+        android:layout_width="wrap_content"
+        android:maxLength="16"
+        android:maxLines="1"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:ellipsize="end"
+        android:layout_alignParentRight="true"></TextView>
+
+
+</RelativeLayout>

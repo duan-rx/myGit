@@ -1,0 +1,5 @@
+心肺复苏训练器App的设计与实现
+app:android 的app目录，低功耗蓝牙模块 android studio软件
+train:服务端目录 eclippse软件
+
+流程：用户在训练器上进行训练，通过低功耗蓝牙与Android设备数据交互，Android 设备向服务器提交训练的数据

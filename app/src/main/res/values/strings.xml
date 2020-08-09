@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">CPR训练</string>
+    <string-array name="she_zhi">
+        <item>设置</item>
+        <item>蓝牙检测</item>
+        <item>实验项目</item>
+        <item>用户管理</item>
+        <item>成绩管理</item>
+    </string-array>
+    <string-array name="sp_woDeResult">
+        <item>选择排序方式</item>
+        <item>训练次数</item>
+        <item>项目名</item>
+        <item>结果时间</item>
+    </string-array>
+    <string-array name="sp_ResultManger">
+        <item>选择排序方式</item>
+        <item>用户名</item>
+        <item>提交次数</item>
+        <item>提交时间</item>
+        <item>检查状态</item>
+    </string-array>
+    <string-array name="sp_experimentSelect">
+        <item>仪器设置</item>
+        <item>检测项目</item>
+        <item>项目设置</item>
+        <item>运行测试</item>
+    </string-array>
+    <string-array name="sp_itemTypeSelect">
+        <item>结果类型</item>
+        <item>数字类型</item>
+        <item>字符类型</item>
+        <item>布尔类型</item>
+    </string-array>
+    <string-array name="sp_setItemLineColor">
+        <item>黑色</item>
+        <item>灰色</item>
+        <item>白色</item>
+        <item>红色</item>
+        <item>绿色</item>
+        <item>蓝色</item>
+        <item>黄色</item>
+        <item>青色</item>
+    </string-array>
+    <string name="title_activity_login">登陆</string>
+    <string name="prompt_email">用户名/手机号</string>
+    <string name="prompt_id">用户名/手机号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登陆</string>
+    <string name="register">注册</string>
+    <string name="action_sign_in_short">登陆</string>
+    <string name="welcome">登陆或注册成功</string>
+    <string name="invalid_username">无此用户</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"登陆失败"</string>
+</resources>

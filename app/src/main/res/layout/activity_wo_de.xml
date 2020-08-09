@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bt_woDeChangePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/button2"
+            android:text="密码修改"></Button>
+        <Button
+            android:id="@+id/bt_woDeChangeMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="信息修改"
+
+            android:background="@drawable/button2"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"></Button>
+        <Button
+            android:id="@+id/bt_woDeExit"
+            android:background="@drawable/button2"
+            android:textColor="#FF0000"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="退出登录"></Button>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="@drawable/button2"
+            android:id="@+id/bt_woDeHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="历史训练纪录"></Button>
+        <Button
+            android:background="@drawable/button2"
+            android:id="@+id/bt_woDeResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="训练成绩"></Button>
+    </RelativeLayout>
+   <TextView
+       android:background="@drawable/button2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="5dp"
+       android:enabled="false"
+       android:paddingLeft="10dp"
+       android:text="最后一次训练结果:"
+       android:textColor="#00FF00"
+       android:layout_marginBottom="5dp"></TextView>
+
+
+
+    <ListView
+        android:id="@+id/lv_woDeLastTrain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+
+
+
+</LinearLayout>
